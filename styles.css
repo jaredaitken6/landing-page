@@ -94,7 +94,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .second-section-homepage h2 {
@@ -162,4 +162,48 @@ a {
     color: #1F2937;
     font-weight: 700;
     text-align: right;
+}
+
+/* fourth section */
+
+.fourth-section-homepage {
+    padding: 150px 250px 150px 250px;
+
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+}
+
+.call-to-action-text p {
+    font-size: 18px;
+}
+
+.call-to-action button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 30px;
+    align-self: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px 0px;
+}
+
+footer p {
+    text-align: center;
 }
